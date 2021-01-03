@@ -4,9 +4,8 @@ sudo apt-get update && sudo apt-get install oracle-java7-jdk<br>
 sudo tar -zxvf jAReC.jar -C /opt<br>
 mv jdk-8u91-linux-arm32-vfp-hflt.tar.gz /usr/local<br>
 cd /usr/local<br>
-tar -xzf jdk-8u91-linux-arm32-vfp-hflt.tar.gz
-<br>
-Es necesario para que en la ventana Serial port y PTT serial port salgan ttyS0 Y ttyUSB0<br>
+tar -xzf jdk-8u91-linux-arm32-vfp-hflt.tar.gz<br>
+Es necesario para que en la ventana Serial port y PTT serial port salgan ttyS0 y ttyUSB0<br>
 sudo chmod 666 /dev/ttyS0<br>
 sudo chmod 666 /dev/ttyUSB0<br>
 
