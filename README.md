@@ -17,3 +17,8 @@ sudo chmod 666 /dev/ttyUSB0
 Es necesario para que en la ventana Serial port y PTT serial port salgan ttyS0 Y ttyUSB0
 
 Comando ejecución: java -jar jAReC.jar
+
+Enlaces de interés:
+https://www.yo3ggx.ro/
+
+https://geekytheory.com/tutorial-raspberry-pi-11-como-instalar-java/
