@@ -18,7 +18,7 @@ Es necesario para que en la ventana Serial port y PTT serial port salgan ttyS0 Y
 
 Comando ejecución: java -jar jAReC.jar
 
-Enlaces de interés:
+Enlaces de interés:<br>
 https://www.yo3ggx.ro/
 
 https://geekytheory.com/tutorial-raspberry-pi-11-como-instalar-java/
