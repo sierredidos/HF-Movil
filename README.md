@@ -1,22 +1,16 @@
 # HF-Movil
-Instalar java:
-sudo apt-get update && sudo apt-get install oracle-java7-jdk
-
-sudo tar -zxvf jAReC.jar -C /opt
-
-mv jdk-8u91-linux-arm32-vfp-hflt.tar.gz /usr/local
-
-cd /usr/local
-
+Instalar java:<br>
+sudo apt-get update && sudo apt-get install oracle-java7-jdk<br>
+sudo tar -zxvf jAReC.jar -C /opt<br>
+mv jdk-8u91-linux-arm32-vfp-hflt.tar.gz /usr/local<br>
+cd /usr/local<br>
 tar -xzf jdk-8u91-linux-arm32-vfp-hflt.tar.gz
+<br>
+Es necesario para que en la ventana Serial port y PTT serial port salgan ttyS0 Y ttyUSB0<br>
+sudo chmod 666 /dev/ttyS0<br>
+sudo chmod 666 /dev/ttyUSB0<br>
 
-Dar permisos USB0:
-sudo chmod 666 /dev/ttyS0
-sudo chmod 666 /dev/ttyUSB0
-
-Es necesario para que en la ventana Serial port y PTT serial port salgan ttyS0 Y ttyUSB0
-
-Comando ejecución: java -jar jAReC.jar
+Comando ejecución: java -jar jAReC.jar<br>
 
 Enlaces de interés:<br>
 https://www.yo3ggx.ro/
